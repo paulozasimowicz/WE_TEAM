@@ -49,3 +49,49 @@ Key properties of polymers that are relevant across different lenght scales incl
 **Relevance in a Broader Context of Polymer Processing: Basic Insights**
 
 Undestanding the physical principles governing polymer behavior is crucial for various polymer processing techniques, such as extrusion, injection molding, and blow molding. Insights from polymer physics enable the optimization of processing conditions, leading to better control over the material properties and the performance of the final products. This knowledge is essential for developing advanced polymer materials with tailored properties for specific applications in industries ranging from packaging and textiles to aerospace and biomedical engineering.
+
+<h1 align="center">Part 2: Thermodynamical Properties</h1>
+
+### Simplefied Case of Ideal Solution: Main Theory
+
+In the simplified case of an ideal solution, the thermodynamical properties are described by the principle of ideal mixing, where the interactions between different species are equivalent to the interactions within the same species. The key aspects of the main theory for ideal solutions include:
+
+- **Ideal Mixing**: In an ideal solution, the enthalpy of mixing (\(\Delta H_{\text{mix}}\)) is zero because the energy interactions between the solute and solvent molecules are identical to those among solute or solvent molecules themselves.
+- **Entropy of Mixing**: The entropy of mixing (\(\Delta S_{\text{mix}}\)) is positive and can be calculated using the expression:
+$
+\Delta S_{\text{mix}} = -k_B \sum_{i} n_i \ln x_i
+$
+where \(k_B\) is the Boltzmann constant, \(n_i\) is the number of moles of component \(i\) and \(x_i\) is the mole fraction of component \(i\).
+
+- **Gibbs Free Energy of Mixing**: The Gibbs free energy change for mixing (\(\Delta G_{\text{mix}}\)) is given by:
+$
+\Delta G_{\text{mix}} = \Delta H_{\text{mix}} - T \Delta S_{\text{mix}} = RT \sum_{i} n_i \ln x_i
+$
+where \(R\) is the universal gas constant and \(T\) is the temperature.
+
+### Extention to Polymer Solutions: Flory-Huggins Theory
+
+The Flory-Huggins theory extends the concept of ideal solution thermodynamics to polymer solutions, taking into account the unique characteristics of polymers, such as their large molecular size and the presence of long chain molecules.
+
+- **Volume Fraction**: In polymer solutions, the concentration is often described in terms of volume fractions rather than molecule fractions. The volume fraction of polymer (\(\phi_1\)) and solvent (\(\phi_2\)) are given by:
+$
+\phi_1 = \frac{V_1}{V_1 + V_2}, \quad \phi_2 = \frac{V_2}{V_1 + V_2}
+$
+where \(V_1\) and \(V_2\) are the volumes of the polymer and solvent, respectively.
+
+- **Flory-Huggins Interaction Parameter (\(\chi\))**: The parameter \(\chi\) quantifies the interaction between polymer and solvent molecules. It accounts for deviations from ideal behavior due to differences in size and interaction energies between polymer and solvent.
+
+- **Entropy of Mixing**: For a polymer solution, the entropy of mixing (\(\Delta S_{\text{mix}}\)) is modified to account for the polymer chain lenght \(N\):
+$
+\Delta S_{\text{mix}} = -k_B \left( \frac{\phi_1}{N} \ln \phi_1 + \phi_2 \ln \phi_2 \right)
+$
+- **Enthalpy of Mixing**: The enthalpy of mixing (\(\Delta H_{\text{mix}}\)) includes the Flory-Huggins interaction parameter:
+$
+\Delta H_{\text{mix}} = k_B T \chi \phi_1 \phi_2 
+$
+- **Gibbs Free Energy of Mixing**: The Gibbs free energy change for mixing (\(\Delta G_{\text{mix}}\)) in polymer solutions is given by:
+$
+\Delta G_{\text{mix}} = k_B T \left( \frac{\phi_1}{N} \ln \phi_1 + \phi_2 \ln \phi_2 + \chi \phi_1 \phi_2 \right)
+$
+
+The Flory-Huggins theory provides a framework for understanding phase behavior and miscibility in polymer solutions. It helps in predicting conditions under which phase separation occurs and is fundamental for designing polymer blends and composites with desired properties.
