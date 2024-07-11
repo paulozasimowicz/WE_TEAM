@@ -216,3 +216,9 @@ Tribology involves the study friction, wear, and lubrication of materials. For p
 - **Automotive and Aerospace Applications**: The use of polymer composites in these industries requires a deep understanding of tribological properties to ensure reliability and performance under varying conditions.
 
 By tailoring the synthesis and processing parameters, polymers can be designed to meet specific application requirements, enhancing their performance and expanding their range of uses across various industries.
+
+<h1 align="center">Part 5: Extrusion</h1>
+
+<h1 align="center">Part 6: Injection moulding</h1>
+
+<h1 align="center">Part 7: Polymer recycling</h1>
