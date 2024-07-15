@@ -231,7 +231,7 @@ By tailoring the synthesis and processing parameters, polymers can be designed t
 - **Flow Instabilities**: Flow instabilities in the hopper section can lead to inconsistent feeding, causing fluctuations in the extrusion process. These instabilities can arise due to factors such as [bridging, rat-holing,and segregation of pellets](https://www.mariettasilos.com/blog/9/silo-ratholing).
 - **Case Study: Investigating the impact of hopper design on pressure distribution and flow stability to optimize the feeding rate and minimize interruptions in the extrusion process.
 
-## Melting Section
+### Melting Section
 
 - **Basic 1D Model: Melt Removal by Drag**: In the melting section, polymer pellets are converted into a molten state. The basic one-dimensional model describes melt removal by drag flow, where the polymer is melted by the [barrel heater](https://www.google.com/search?sca_esv=84c26764467f9508&sca_upv=1&rlz=1C1GCEA_enBR1039BR1039&sxsrf=ADLYWIL-tlOcIfholkSGvPtQWYfHke7vzg:1721048436508&q=barrel+heater&udm=2&fbs=AEQNm0AuaLfhdrtx2b9ODfK0pnmi2aC_xrXWMCzvpYJNclNNRCOG4t8WPeBQqnJC-vvwlgOo7k5OE_Mn9egEkOrddQqDlsifiZAbLa_6h-nfMnUJRjQ0mYfEo6EhE4bhvhXsZNELrrf5b6n4CCQrdkAei2NlrNAYB16Wr8fHIgXIgxp_6j5Pj6jTBoc2Nto0dIaIJTCAeCWHgJuVl3F4tHMiub8TZKwvqQ&sa=X&ved=2ahUKEwiV0MuFjamHAxUpqpUCHah1D2cQtKgLegQIExAB&biw=1920&bih=919&dpr=1) and dragged along the screw channel. The melt flow rate can be expressed as:
 $
@@ -245,7 +245,7 @@ $
 where \(\rho\) is the density, \(C_{\text{p}}\) is the specific heat, \(T\) is the temperature, \(\mathbf{v}\) is the velocity vector, \(k\) is the termal conductivity, and \(\eta (\dot{\gamma})^2\) is the viscous dissipation.
 - **Case Study: Determination of Optimal Height for Fast Melting**: Evaluating different channel dephts to identify the optimal height that ensures rapid and uniform melting of the polymer pellets.
 
-## Pressurization Section
+### Pressurization Section
 - **Basic 1D Model: Combined Drag and Pressure Flow**: In the pressurization section, the polymer melt is further compressed and pushed towards the die. The basic one-dimensional model combined drag and pressure flow, described by:
 $
 Q = Q_{\text{drag}} - Q_{\text{pressure}}
@@ -256,7 +256,37 @@ $
 Q_{\text{pressure}} = \frac{\Delta P D^3}{12 \eta L}
 $
 where \(\Delta P\) is the pressure drop, \(D\) is the screw diameter, \(\eta\) is the viscosity, and \(L\) is the lenght of the pressurization section.
-- **Extended 2D Model: Newtonian Extrusion Theory**: The extended two-dimensional
+- **Extended 2D Model: Newtonian Extrusion Theory**: The extended two-dimensional model applies Newtonian extrusion theory to describe the flow behavior more accurately. It includes the effects of pressure and shear rate on the viscosity of the polymer melt.
+- **Relation with Die**: The pressurization section must be designed to match the flow characteristics with the die geometry to ensure smooth and uniform extrusion. The die swell and pressure drop across the die need to be considered for optimizing the extrudate shape and dimensions.
+- **Case Study: Calculation of Complete Pressure and Temperature Profile of Non-Newtonian Polymer Melt**: Using computational fluid dynamics (CFD) to model the pressure and temperature distribution in the pressurization section, taking into account the non-Newtonian behavior of the polymer melt. The analysis helps in optimizing the extruder design to achieve desired output characteristics.
+
+By understanding and optimizing each section of the extrusion process, it is possible to improve the efficiency, quality, and consistency of the extruded polymer products.
+
 <h1 align="center">Part 6: Injection moulding</h1>
+
+### Basic 1D Model: Conduction with Stepwise Temperature Change
+Injection moulding involves injectiong molten polymer into a mould where it cools and solidifies into the desired shape. The basic one-dimensional model of heat conduction with stepwise temperature change considers the temperature distribution within the moulded part over time.
+- **Conduction Model**: Heat conduction in the mould can be described by Fourier's law: 
+$
+\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
+$
+where \(T\) is the temperature, \(t\) is time, \(\alpha\) is the thermal diffusivity, and \(x\) is the spatial coordinate.
+- **Stepwise Temperature Change**: The temperature change can be modeled in steps, where the temperature of the molten polymer is reduced in stages as it moves throught the mould.
+- **Extension to Finite Dimensions and Contribution of Convection**: The model can be extended to finite dimensions by incorporating boundary conditions that account for heat loss throught the mould walls. Convection effects can be included by considering the heat transfer coefficient at the mould-polymer interface:
+$
+q = h (T_{\text{surface}} - T_{\text{ambient}})
+$
+where \(q\) is the heat flux, \(h\) is the heat transfer coefficient, \(T_{\text{surface}}\) is the surface temperature, and \(T_{\text{ambient}}\) is the ambient temperature.
+
+### Extended Leveque Model: Calculation of Cooling Efficiency
+The extended Leveque model provides a more detailed calculation of cooling efficiency in injection moulding by considering the combined effects of conduction and convection.
+
+- **Leveque Model**: The model extends the basic conduction model by incorporating the effects of fluid flow and temperature gradients within the mould. The cooling efficiency is calculated by solving the heat transfer equations that account for both conduction and convection.
+- **Cooling Efficiency**: The efficiency of cooling can be expressed as a function of the Biot number (\(Bi\)), which represents the ratio of convective to conductive heat transfer:
+$
+Bi = \frac{hL}{k}
+$
+where \(L\) is the characteristic length and \(k\) is the thermal conductivity of the polymer.
+
 
 <h1 align="center">Part 7: Polymer recycling</h1>
