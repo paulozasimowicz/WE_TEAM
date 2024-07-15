@@ -16,8 +16,9 @@ This relationship assumes that the polymer behaves as a random walk, where the d
 <figure>
 <img
   src="images/radius_of_gyration_formula.png"
-  alt="R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2" />
-   <figcaption> Latex formula: R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2  <figcaption>
+  alt="R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2" >
+   <figcaption> Latex formula: R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2
+   <figcaption>
   <figure>
 
 where \(r_i\) is the position of the vector of the \(i\)-th monomer and \(r_{\text{cm}}\) is the center of the mass of the polymer chain. For an ideal Gaussian chain, the relationship between \(R_{\text{ee}}\) and \(R_{\text{g}}\) is:
@@ -224,6 +225,38 @@ By tailoring the synthesis and processing parameters, polymers can be designed t
 
 <h1 align="center">Part 5: Extrusion</h1>
 
+### Hopper Section
+
+- **Pressure Distribution**: In the hopper section of an extrusion process, pressure distribution is critical to ensure a consistent feed rate of polymer pellets into the extruder barrel. The pressure at the hopper base is influenced by the hopper geometry, pellet properties, and the feeding mechanism.
+- **Flow Instabilities**: Flow instabilities in the hopper section can lead to inconsistent feeding, causing fluctuations in the extrusion process. These instabilities can arise due to factors such as [bridging, rat-holing,and segregation of pellets](https://www.mariettasilos.com/blog/9/silo-ratholing).
+- **Case Study: Investigating the impact of hopper design on pressure distribution and flow stability to optimize the feeding rate and minimize interruptions in the extrusion process.
+
+## Melting Section
+
+- **Basic 1D Model: Melt Removal by Drag**: In the melting section, polymer pellets are converted into a molten state. The basic one-dimensional model describes melt removal by drag flow, where the polymer is melted by the [barrel heater](https://www.google.com/search?sca_esv=84c26764467f9508&sca_upv=1&rlz=1C1GCEA_enBR1039BR1039&sxsrf=ADLYWIL-tlOcIfholkSGvPtQWYfHke7vzg:1721048436508&q=barrel+heater&udm=2&fbs=AEQNm0AuaLfhdrtx2b9ODfK0pnmi2aC_xrXWMCzvpYJNclNNRCOG4t8WPeBQqnJC-vvwlgOo7k5OE_Mn9egEkOrddQqDlsifiZAbLa_6h-nfMnUJRjQ0mYfEo6EhE4bhvhXsZNELrrf5b6n4CCQrdkAei2NlrNAYB16Wr8fHIgXIgxp_6j5Pj6jTBoc2Nto0dIaIJTCAeCWHgJuVl3F4tHMiub8TZKwvqQ&sa=X&ved=2ahUKEwiV0MuFjamHAxUpqpUCHah1D2cQtKgLegQIExAB&biw=1920&bih=919&dpr=1) and dragged along the screw channel. The melt flow rate can be expressed as:
+$
+Q_{\text{drag}} = \frac{\pi D^2 N}{2} \left(\frac{H}{L} \right)
+$
+where \(D\) is the screw diameter, \(N\) is the screw speed, \(H\) is the channel depth, and \(L\) is the screw lenght.
+- **Extended 2D Model: Convection and Temperature-Dependent Shear**: The extended two-dimensional model incorporates convection and temperature-dependent shear effects. It considers the combined influence of heat conduction, convection, and shear heating on the melting process. The energy balance equation is given by:
+$
+\rho C_p \left(\frac{\partial T}{\partial t} + \mathbf{v} \cdot \nabla T \right) = k \nabla^2 T + \eta (\dot{\gamma})^2
+$
+where \(\rho\) is the density, \(C_{\text{p}}\) is the specific heat, \(T\) is the temperature, \(\mathbf{v}\) is the velocity vector, \(k\) is the termal conductivity, and \(\eta (\dot{\gamma})^2\) is the viscous dissipation.
+- **Case Study: Determination of Optimal Height for Fast Melting**: Evaluating different channel dephts to identify the optimal height that ensures rapid and uniform melting of the polymer pellets.
+
+## Pressurization Section
+- **Basic 1D Model: Combined Drag and Pressure Flow**: In the pressurization section, the polymer melt is further compressed and pushed towards the die. The basic one-dimensional model combined drag and pressure flow, described by:
+$
+Q = Q_{\text{drag}} - Q_{\text{pressure}}
+$
+where \(Q_{\text{pressure}}\) is the flow rate due to pressure gradient. 
+The pressure-driven flow is given by:
+$
+Q_{\text{pressure}} = \frac{\Delta P D^3}{12 \eta L}
+$
+where \(\Delta P\) is the pressure drop, \(D\) is the screw diameter, \(\eta\) is the viscosity, and \(L\) is the lenght of the pressurization section.
+- **Extended 2D Model: Newtonian Extrusion Theory**: The extended two-dimensional
 <h1 align="center">Part 6: Injection moulding</h1>
 
 <h1 align="center">Part 7: Polymer recycling</h1>
