@@ -15,7 +15,7 @@ This relationship assumes that the polymer behaves as a random walk, where the d
 2. **Radius of Gyration**: The radius of gyration (\(R_{\text{g}}\)) quantifies the distribution of the monomers around the center of mass of the polymer chain. It is defined as: 
 <figure>
 <img
-  src="images/radius_of_gyration_formula.gif"
+  src="images/radius_of_gyration_formula.png"
   alt="R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2" />
    <figcaption> Latex formula: R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2  <figcaption>
   <figure>
