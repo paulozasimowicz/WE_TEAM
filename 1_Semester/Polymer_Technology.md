@@ -13,9 +13,17 @@ $
 This relationship assumes that the polymer behaves as a random walk, where the directions of the sucessive monomers are uncorrelated.
 
 2. **Radius of Gyration**: The radius of gyration (\(R_{\text{g}}\)) quantifies the distribution of the monomers around the center of mass of the polymer chain. It is defined as: 
+<figure>
+<img
+  src="images/radius_of_gyration_formula.gif"
+  alt="R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2" />
+   <figcaption> Latex formula: R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2  <figcaption>
+  <figure>
+
 $
 R_{\text{g}}^2 = \frac{1}{N} \sum_{i=1}^{N} (\mathbf{r}_i - \mathbf{r}_{\text{cm}})^2
 $
+
 where \(r_i\) is the position of the vector of the \(i\)-th monomer and \(r_{\text{cm}}\) is the center of the mass of the polymer chain. For an ideal Gaussian chain, the relationship between \(R_{\text{ee}}\) and \(R_{\text{g}}\) is:
 $
 R_{\text{g}} = \frac{R_{\text{ee}}}{\sqrt{6}}
