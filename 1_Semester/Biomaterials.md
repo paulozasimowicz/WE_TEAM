@@ -38,6 +38,8 @@ Fabric can be classified based on their construction methods an end users. The m
 - **Knitted Fabrics**: Created by interlooping yarns. They can be further classified into weft-knitted and warp-knitted fabrics.
 - **Nonwoven Fabrics**: Made by bonding or felting fibres together without weaving or knitting. They are used in applications like medical textiles and geotextiles.
 
+[**Differences betweeen interlooping yarn and interlacing yarn**](https://www.quora.com/What-is-the-difference-between-interlooping-yarn-and-interlacing-yarn)
+
 ### Fabric Structure
 
 The structure of a fabric determines its properties and suitability for different applications. Key aspects of fabric structure include:
@@ -47,3 +49,41 @@ The structure of a fabric determines its properties and suitability for differen
 - **Fabric Finishing**: Processes applied to the fabric to enhance its appearance, texture, or performance, such as dyeing, printing, and coating.
 
 Understanding the properties and classifications of textiles fibres is essential for selecting the appropriate materials for various textile applications, ensuring the desired performance and quality of the final products.
+
+<h1 align="center">Part 2: Surface Modification</h1>
+
+Surface modification of textiles fibres involves altering their surface properties to enhance performance, functionality, and aesthetics without changing the bulk properties of the fibres. This process is essential for improving characteristics such as wettability, dyeability, and resistance to environmental factors.
+
+### Techniques for Surface Modification
+
+1. **Physical Methods**: These methods involve mechanical or physical treatments to change the surface charactheristics of the fibres.
+    - **Plasma Treatment**: Exposure to plasma can introduce functional groups onto the fibre surface, enhancing properties like wettability and adhesion. This process is effective for both natural and synthetic fibres.
+    - **Corona Treatment**: A high-voltage eletrical discharge is used to modify the fibre structure, improving wettability and adhesion properties. It is commmonly applied to synthetic fibres like polypropylene and polyethylene.
+    - **Laser Treatment**: Laser irradiation can create micro- or nano- scale surfaces structures, altering the texture and increasing surface area. This method is used to enhance properties such as dye uptake and mechanical bonding.
+
+2. **Chemical Methods**: These involve the use of chemical agents to modify the fibre surface through reactions that introduce new functional groups or coatings.
+    - **Grafting**: Grafting involves the attachment of polymer chains onto the fibre surface through chemical reactions. For example, grafting acrylic acid onto polyester fibres can improve dyeability and hydrophilicity.
+    - **Functionalization**: Introducing functional groups, such as amines, carboxyls, or hydroxyls, onto the fibre surface can improve compatibility with other materials and enhance specific properties. For instance, treating wool with amino-silanes can increase its dye affinity.
+    - **Chemical Coating**: Applying thin layers of chemical coatings can provide desired surface properties. Examples include applying fluorocarbon finishes to textiles for water and oil repellency or using antimicrobial agents to impart antibacterial properties.
+
+3. **Biological Methods**: Utilizing enzymes and other biological agents for eco-friendly surface modifications.
+    - **Enzymatic Treatment**: Enzymes can selectively modify the fibre surface, improving properties like softness, smoothness, and dyetability. For example, cellulases are used to enhance the surface properties of cotton fabrics.
+    - **Biomimetic Coating**: Inspired by natural processes, biomimetic coatings involve applying biological molecules or structures to the fibre surface. These coatings can provide functionalities such as antibacterial or antifouling properties.
+
+### Applications of Surface Modification
+
+1. **Enhanced Dyebility and Printability**: Surface modification can improve the affinity of fibres for dyes and inks, resulting in brighter colors and better print quality. Techniques like plasma treatment and chemical functionalization are commonly used for this purpose.
+2. **Improved Wettability and Absorbency**: Modifying the surface of hydrophobic fibres can enhance their wettability and absorbency, making them suitable for applications like activewear and medical textiles. Plasma treatment and grafting hydrophilic monomers are effective methods.
+3. **Increased Adhesion and Bonding**: Surface modification can enhance the adhesion between fibres and other materials, such as coatings, adhesives, and composites. This is particularly important in technical textiles and composites materials.
+4. **Antimicrobial and Antifungal Properties**: Incorporating antimicrobial agents or creating surfaces that resist microbial growth can improve the hygiene and longevity of textiles used in healthcare, sports, and outdoor applications.
+5. **Water and Stain Repellency**: Applying hydrophobic coatings or modifying the surface texture can impart water and stain repellent properties, useful for outdoor gear, upholstery, and protective clothing.
+6. **UV Protection**: Surface treatments that incorporate UV-absorbing or reflecting agents can protect textiles from UV degradation and provide sun protection for wearer.
+7. **Fire Resistance**: Chemical treatments can enhance the flame retardancy of textiles, making them safer for use in environments where fire hazards are a concern.
+
+### Case Studies
+
+1. **Plasma Treatment for Polyester Dyeability**: Polyester fabrics treated with low-temperature plasma show improved dye uptake and color fastness, demonstrating the effectiveness of plasma treatment in enhancing dyeability without adversely affecting the bulk properties of the fibres.
+2. **Grafting Acrylic Acid onto Polypropylene**: Polypropylene fibres grafted with acrylic acid exhibit enhance hydrophilicity and dyeability, making them more suitable for applications requiring moisture management and vibrant colors.
+3. **Antimicrobial Cotton Fabrics**: Cotton fabrics treated with silver nanoparticles or chitosan exhibit strong antimicrobial properties, making them ideal for medical textiles and activewear. 
+
+By employing various surface modification techniques, textile manufacturers can tailor the properties of fibres to meet specific performance requirements, enhancing the functionality and value of textile products across diverse applications.
