@@ -38,8 +38,6 @@ Fabric can be classified based on their construction methods an end users. The m
 - **Knitted Fabrics**: Created by interlooping yarns. They can be further classified into weft-knitted and warp-knitted fabrics.
 - **Nonwoven Fabrics**: Made by bonding or felting fibres together without weaving or knitting. They are used in applications like medical textiles and geotextiles.
 
-[**Differences betweeen interlooping yarn and interlacing yarn**](https://www.quora.com/What-is-the-difference-between-interlooping-yarn-and-interlacing-yarn)
-
 ### Fabric Structure
 
 The structure of a fabric determines its properties and suitability for different applications. Key aspects of fabric structure include:
@@ -49,6 +47,13 @@ The structure of a fabric determines its properties and suitability for differen
 - **Fabric Finishing**: Processes applied to the fabric to enhance its appearance, texture, or performance, such as dyeing, printing, and coating.
 
 Understanding the properties and classifications of textiles fibres is essential for selecting the appropriate materials for various textile applications, ensuring the desired performance and quality of the final products.
+
+### Usefull Links
+
+- [**Differences betweeen interlooping yarn and interlacing yarn**](https://www.quora.com/What-is-the-difference-between-interlooping-yarn-and-interlacing-yarn)
+
+- [**Different Types of Stitches and Their Uses in Garnments**](https://textilelearner.net/different-types-of-stitches-uses-in-garments/)
+
 
 <h1 align="center">Part 2: Surface Modification</h1>
 
