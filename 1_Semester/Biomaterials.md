@@ -92,3 +92,49 @@ Surface modification of textiles fibres involves altering their surface properti
 3. **Antimicrobial Cotton Fabrics**: Cotton fabrics treated with silver nanoparticles or chitosan exhibit strong antimicrobial properties, making them ideal for medical textiles and activewear. 
 
 By employing various surface modification techniques, textile manufacturers can tailor the properties of fibres to meet specific performance requirements, enhancing the functionality and value of textile products across diverse applications.
+
+<h1 align="center">Part 3: Cellulose and Startch</h1>
+
+## Cellulose
+Cellulose is a natural polymer composed of \(\beta\)-D-glucose units linked by \(\beta\)(1\(\rightarrow\)4)glycosidic bonds. It is the primary structural component of plant cell walls and is the most abundant organic polymer on Earth.
+
+### Structure and Properties
+- **Molecular Structure**: Cellulose consists of linear chains of glucose units. The \(\beta\)(1\(\rightarrow\)4)glycosidic bonds result in a rigid and linear molecule, which allows for extensive hydrogen bonding between chains, leading to the formation of microfibrils.
+- **Hydrogen Bonding**: The extensive hydrogen bonding within and between cellulose molecules contributes to its hight tensile strength and insolubility in water. These hydrogen bonds also give cellulose its crystalline nature.
+- **Degree of Polymerization (DP)**: The DP of cellulose, which refers to the number of glucose units in a cellulose molecule, can vary significantly depending on the source. For example, cotton has a high DP, while wood pulp has a lower DP.
+- **Crystallinity**: Cellulose can exist in both crystalline and amorphous regions. The crystalline regions provide strength and stability, while the amorphous regions offer flexibility and accessibility for chemical modification.
+
+### Sources of Cellulose
+
+- **Plant Fibres**: Cellulose is found in the cell walls of all plants. Major sources include cotton (almost pure cellulose), wood (40-50% cellulose), and other plant fibres such as flax, hemp, and jute.
+- **Microbial and Bacterial Cellulose**: Some bacteria, like Acetobacter xylinum, produce cellulose extracellularly. Bacterial cellulose is highly pure and has unique properties, such as high water-holding capacity and mechanical strength.
+
+### Applications
+- **Textiles**: Cellulose fibres like cotton and linen are widely used in the textile industry for their comfort, breathability, and biodegradability.
+- **Paper and Pulp**: Cellulose from wood pulp is the primary raw material for paper production. The paper industry relies on the fibrous nature and strength of cellulose.
+- **Biocomposites**: Cellulose fibres are used as reinforcement in biocomposites, providing strength and reducing the environmental impact compared to synthetic composites.
+- **Hydrogels and Films**: Cellulose derivatives, such as carboxymethyl cellulose and hydroxyethyl cellulose, are used to produce hydrogels and films with applications in food, pharmaceuticals, and biomedical fields.
+- **Sustainable Packaging**: Cellulose-based materials are increasingly being used as sustainable alternatives to plastic packaging due to their biodegradability and renewability.
+
+## Starch 
+Starch is a natural polysaccharide composed of a \(\alpha\)-D-glucose units linked primarily by \(\alpha\)-(1\(\rightarrow\)4)glycosidic bonds, with occasional \(\alpha\)(1\(\rightarrow\)6) linkages forming branch points. It serves as an energy storage molecule in plants.
+
+### Structure and Properties
+- **Molecular Structure**: Starch consists of two types of molecules: amylose and amylopectin.
+    - **Amylose**: A mostly linear polymer of glucose units linked by a \(\alpha\)-(1\(\rightarrow\)4)glycosidic bonds. Amylose tends to form helical structures and contributes to the gelling properties of starch.
+    - **Amylopectin**: A highly branched polymer with a \(\alpha\)-(1\(\rightarrow\)4) linkages in the linear segments and \(\alpha\)-(1\(\rightarrow\)6) linkages at the branch points. Amylopectin is responsible for the viscosity and thickening properties of starch.
+- **Granular Structure**: Startch occurs in semi-crystalline granules of varying sizes and shapes, depending on the botanical source. The granules contain both crystalline and amorphous regions.
+- **Gelatinization**: Upon heating in water, starch granules swell, absorb water, and eventually rupture, releasing amylose and amylopectin into the solution. This process, known as gelatinization, is critiacl for the functionality of starch in food and industrial applications.
+
+### Sources of Starch
+- **Cereal Grains**: Maize (corn), wheat, and rice are major sources of starch. These grains provide the bulk of starch used in food and industrial applications.
+- **Root Vegetables and Tubers**: Potatoes, cassava, and sweet potatoes are rich sources of starch. These sources are particularly important in regions where they serve as staple foods.
+- **Legumes**: Peas, beans, and lentils contain significant amounts of starch and are important dietary sources.
+
+### Applications
+- **Food Industry**: Starch is widely used as a thickener, stabilizer, and gelling agent in various food products. Modified starches with altered properties are used in specific applications like instant puddings and soups.
+- **Biodegradable Plastics**: Starch-based bioplastics are used as sustainable alternatives to conventional plastic. These bioplastics are used in packaging, agricultural films, and disposable items.
+- **Textile Industry**: Starch is used as a sizing agent in textile processing, where it provides strength and stiffness to yarns during weaving. It is also used in textile printing pastes.
+- **Paper Industry**: Starch is used in papermaking as a surface sizing agent, enhancing the strength, printability, and surface properties of paper.
+- **Pharmaceutical Industry**: Starch is used as a binder, dsintegrant, and filler in tablet formullations. Its biocompatibility and biodegradability make it suitable for various pharmaceutical applications.
+
