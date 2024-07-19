@@ -38,7 +38,6 @@ Obtain an overview of biopolymers generally used for materials'applications. Ins
 - Manufactured fibres (rayon, cellulose acetate, lyocell, polyester, nylon, kevlar, polypropylene, vinyl fibres, acrylic)
 - Fabric classifications
 - Fabric structure
-
 ## Part 2: Surface modification
 ## Part 3: Cellulose and starch
 ## Part 4: Chitin and chitosan
