@@ -6,31 +6,52 @@ The study of the mechanics of textile materials encompasses the analysis of thei
 
 ## Definitions
 
-1. **Mechanic of Textile Materials**:
-2. **Stress and Strain**:
+1. **Mechanic of Textile Materials**: This field examines the response of textile materials to mechanical forces, analyzing their strength, elasticity, deformation, and failure mechanisms. It involves both theoretical modeling and experimental validation to predict material behavior under different conditions.
+2. **Stress and Strain**: Stress is the internal force per unit area within a material, typically measured in Pascals (Pa), while strain is the deformation or displacement per unit length resulting from applied stress. These are fundamental concepts in understanding material mechanics.
     - Formula for stress:
+    $
+    \sigma = \frac{F}{A}
+    $
+    where 𝜎 is stress, 𝐹 is the applied force,and 𝐴 is the cross-sectional area.
     - Formula for strain:
+    $\epsilon = \frac{\Delta L}{L_0}$
+    where 𝜖 is strain, Δ𝐿 is the change in length, and \(𝐿_0\) is the original length.
 
 ## Time Effects and Mechanical Models
 
-1. **Viscoelasticity**:
+1. **Viscoelasticity**: Textile materials often exhibit viscoelastic behavior, combining both elastic and viscous characteristics. This means their response to stress is time-dependent, showing both immediate elastic deformation and gradual viscous flow.
     - Mathematical representation:
-2. **Creep and Relaxation**:
+    $\sigma(t) = E \cdot \epsilon(t) + \eta \cdot \frac{d\epsilon(t)}{dt}$
+    where 𝜎(𝑡) is the stress, 𝜖(𝑡) is the strain, 𝐸 is the elastic modulus, and 𝜂 is the viscosity coefficient.
+2. **Creep and Relaxation**: Creep refers to the time-dependent increase in strain under a constant load, while relaxation describes the decrease in stress under a constant strain. Both phenomena are critical in understanding the long-term performance of textile materials.
 
 ## Helical Yarn Geometry, Yarn Linear Density, and Twist
-1. **Helical Yarn Geometry**:
-2. **Yarn Linear Density (Tex, Denier)**:
-    - Formula:
-3. **Twist**:
-    - Formula:
+
+1. **Helical Yarn Geometry**: The geometric structure of yarns, which can be described by helical models, influences their mechanical properties. The helical angle, pitch, and radius are key parameters.
+2. **Yarn Linear Density (Tex, Denier)**: Linear density is a measure of the mass per unit length of yarn, often expressed in tex (grams per kilometer) or denier (grams per 9 kilometers).
+    - Formula: 
+    $T = \frac{m}{l}$
+    where 𝑇 is the linear density, 𝑚 is the mass, and 𝑙 is the length.
+3. **Twist**: Twist in yarns affects their tensile strength, elasticity, and appearance. Twist per unit length (tpm) is a crucial parameter in textile engineering.
+    - Formula: 
+    $Z = \frac{n}{l}$
+    where \(Z\) is the twist per unit length, \(n\) is the number of twists, and \(l\) is the length.
 ## Packing Density
+Packing density refers to the ratio of the volume of fibers to the total volume of the yarn. It influences the mechanical and physical properties of yarns, such as their strength, compressibility, and air permeability.
 - Formula:
+$\rho = \frac{V_f}{V_t}$
+where \(\rho\) is the packing density, \(V_f\) is the volume of fibers, and \(V_t\) is the total volume of the yarn.
 ## Tensile Properties 
-1. **Tensile Strenght**:
+Tensile properties determine how a textile material responds to stretching forces. Key parameters include tensile strength, modulus of elasticity, and elongation at break.
+1. **Tensile Strenght**: The maximum stress a material can withstand while being stretched.
     - Formula:
-2. **Modulus of Elasticity (Young's Modulus)**:
+    $\sigma_{max} = \frac{F_{max}}{A}$
+    where \(σ_{max}\) is the tensile strength, \(F_{max}\) is the maximum force, and \(A\) is the cross-sectional area.
+2. **Modulus of Elasticity (Young's Modulus)**: The ratio of stress to strain in the elastic deformation region.
     - Formula:
-3. **Elongation at Break**:
+    $E = \frac{\sigma}{\epsilon}$
+    where \(E\) is the modulus of elasticity, \(\sigma\) is the stress, and \(\epsilon\) is the strain.
+3. **Elongation at Break**: The strain at which a material breaks under tensile stress.
 
 ## Bending and Buckling
 1. **Bending**:
