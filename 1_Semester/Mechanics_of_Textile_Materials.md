@@ -136,99 +136,154 @@ The tensile properties of yarn are crucial for determining its strength and dura
     - Tensile strength:
     $\sigma_{max} = \frac{F_{max}}{A}$
     where \(\sigma_{max}\) is the tensile strength, \(F_{max}\) is the maximum force, and \(A\) is the cross-sectional area.
-2. **Elongation at Break**:
+2. **Elongation at Break**: The strain at which the yarn breaks under tensile stress.
     - Elongation at break:
-3. **Modulus of Elasticity (Young's Modulus)**:
-    - Modulus of elasticity:
+    $\epsilon_{break} = \frac{\Delta L}{L_0}$
+    where \(\epsilon_{break}\) is the elongation break, \(\Delta L\) is the change in length at breaking point, and \(L_0\) is the original length.
+3. **Modulus of Elasticity (Young's Modulus)**: The ratio of stress to strain in the elastic deformation region of the yarn.
+    - Modulus of elasticity: 
+    $E = \frac{\sigma}{\epsilon}$
+    where \(E\) is the modulus of elasticity, \(\sigma\) is the stress, and \(\epsilon\) is the strain. 
 ## Bending and Buckling of Yarn
-1. **Bending**:
+Yarns also exhibit bending and buckling behaviors under mechanical loads, which are critical in understanding their performance in fabrics and composites.
+1. **Bending**: The deformation of yarn due to an external load applied perpendicular to its length. Bending rigidity is a measure of a yarn's resistance to bending.
     - Bending moment:
-2. **Buckling**:
+    $M = E \cdot I \cdot \kappa$
+    where \(M\) is bending moment, \(E\) is the modulus of elasticity, \(I\) is the second moment of area, and \(\kappa\) is the curvature.
+2. **Buckling**: The sudden deformation of yarn under compressive stress, leading to failure. Buckling analysis is essential for ensuring the stability of textile structures.
     - Critical buckling load:
+    $P_{cr} = \frac{\pi^2 E I}{(KL)^2}$
+    where \(P_{cr}\) is the critical load, \(E\) is the modulus of elasticity, \(I\) is the second moment of area, \(K\) is the column effective length factor, and \(L\) is the unsupported length.
 ## Mechanical Models of Yarn
-1. **Linear Elastic Model**:
+1. **Linear Elastic Model**: Assumes that the yarn behaves as a linearly elastic material within its elastic limit. This model is characterized by Hooke's law.
     - Hooke's law for yarn:
-2. **Non-linear Elastic Model**:
+    $\sigma = E \cdot \epsilon$
+    where \(\sigma\) is the stress, \(E\) is the modulus of elasticity, and \(\epsilon\) is the strain.
+2. **Non-linear Elastic Model**: Accounts for the non-linear behavior of yarns, especially at higher strains. This model uses a non-linear stress-strain relationship.
     - Non-linear stress-strain relationship:
-3. **Viscoelastic Model**:
+    $\sigma = E \cdot \epsilon + \alpha \epsilon^2$
+    where \(\alpha\) is a material constant.
+3. **Viscoelastic Model**: Combines both elastic and viscous behaviors, suitable for describing the time-dependent response of yarns under load.
     - Viscoelastic stress-strain relationship:
+    $\sigma(t) = \int_{0}^{t} G(t - \tau) \frac{d\epsilon(\tau)}{d\tau} d\tau$
+    where \(G(t - \tau)\) is the relaxation function.
 
 <h1 align="center">Part 4: Woven Fabric Mechanics</h1>
+Woven fabrics are a fundamental category of textile materials formed by interlacing two sets of yarns: the warp (longitudinal) and the weft (transverse). The mechanics of woven fabrics involves understanding their structure, properties, and response to various mechanical forces.
 
 ## Fabric Structure and Geometry
+The simplest weave patterns include plain weave, twill weave, and satin weave. Each pattern affects the fabric's mechanical properties differently.
 1. **Basic Weave Patterns**
-    - **Plain Weave**:
-    - **Twill Weave**:
-    - **Satin Weave**:
-2. **Fabric Count**:
+    - **Plain Weave**: Each warp yarn alternates over and under each weft yarn, resulting in a simple criss-cross pattern. It provides a balanced structure with good dimensional stability.
+    - **Twill Weave**: Warp yarns pass over one or more weft yarns, creating a diagonal pattern. This weave is more flexible and drapes better than plain weave.
+    - **Satin Weave**: Warp yarns float over several weft yarns, creating a smooth surface with high sheen. It is less durable but provides a luxurious appearance.
+2. **Fabric Count**: The density of yarns per unit area, typically measured as warp and weft threads per inch or centimeter.
     - Fabric count:
-3. **Crimp**:
+    $C = N_w + N_f$
+    where \(C\) is the fabric count, \(N_w\) is the number of warp threads per unit length, and \(N_f\) is the number of weft threads per unit length.
+3. **Crimp**: The waviness of yarns in the fabric, which affects the overall fabric properties. Crimp can be defined as the difference between the yarn length and the straight-line distance between the fabric edges.
     - Crimp ratio:
+    $\text{Crimp ratio} = \frac{L_y - L_s}{L_s}$
+    where \(L_y\) is the length of the yarn in the fabric, and \(L_s\) is the straigth-line distance between the fabric edges.
 
 ## Mechanical Properties of Woven Fabrics 
-1. **Tensile Properties**:
-    - **Tensile Strength**:
+1. **Tensile Properties**: The tensile strength and elongation properties of woven fabrics are crucial for applications requiring strength and durability.
+    - **Tensile Strength**: The maximum force per unit area that the fabric can withstand while being stretched.
         - Tensile strength formula:
-    - **Elongation at Break**:
+        $\sigma_{max} = \frac{F_{max}}{A}$
+    where \(\sigma_{max}\) is the tensile strength, \(F_{max}\) is the maximum force, and \(A\) is the cross-sectional area.
+    - **Elongation at Break**: The amount of strain the fabric can endure before breaking.
         - Elongation at break formula:
-2. **Shear Properties**:
-    - **Shear Modulus**:
+        $\epsilon_{break} = \frac{\Delta L}{L_0}$
+    where \(\epsilon_{break}\) is the elongation break, \(\Delta L\) is the change in length at breaking point, and \(L_0\) is the original length.
+2. **Shear Properties**: The ability of the fabric to resist shearing forces, which is crucial for applications where fabrics are subjected to sliding or twisting.
+    - **Shear Modulus**: The ratio of shear stress to shear strain in the fabric.
         - Shear modulus formula:
-3. **Bending Properties**:
-    - **Bending Rigidity**:
+        $G = \frac{\tau}{\gamma}$
+        where \(G\) is the shear modulus, \(\tau\) is the shear stress, and \(\gamma\) is the shear strain.
+3. **Bending Properties**: The ability of the fabric to bend without breaking, which affects its drape and flexibility.
+    - **Bending Rigidity**: A measure of the fabric's resistance to bending, influenced by the yarn properties and weave pattern.
         - Bending rigidity formula:
+        $B = E \cdot I$
+        where \(B\) is the bending rigidity, \(E\) is the modulus of elasticity, and \(I\) is the second moment of area of the fabric.
 
 ## Fabric Behavior under Load
-1. **Stress-Strain Relationship**:
-    - **Non-linear Stress-Strain Behavior**:
-        - Non-linear stress-strain formula:
-2. **Anisotropy**:
+1. **Stress-Strain Relationship**: Woven fabrics exhibit a complex stress-strain relationship, often non-linear due to the fabric's weave pattern and yarn interactions.
+    - **Non-linear Stress-Strain Behavior**: Many woven fabrics show non-linear behavior under large strains, requiring more complex models for accurate predictions.
+        - Non-linear stress-strain formula: 
+        $\sigma = E \cdot \epsilon + \alpha \epsilon^2$
+    where \(\alpha\) is a material constant.
+2. **Anisotropy**: Woven fabrics are anisotropic, meaning their mechanical properties vary with direction due to the different alignments of warp and weft yarns.
 
 ## Mechanical Models for Woven Fabric
-1. **Homogeneous Models**:
+1. **Homogeneous Models**: Simplified models treating the fabric as a homogeneous medium. Useful for preliminary design and analysis.
     - **Linear Elastic Model**:
-2. **Anisotropic Models**:
+    $\sigma_{ij} = C_{ijkl} \epsilon_{kl}$
+    where \(C_{ijkl}\) is the elasticity tensor, and \(\epsilon_{kl}\) is the strain tensor.
+2. **Anisotropic Models**: More complex models accounting for the directional dependencies in the mechanical properties of woven fabrics.
     - **Orthotopic Elastic Model**:
-3. **Finite Element Models**:
+    $\sigma_{ij} = \frac{E_1}{1 - \nu_{12} \nu_{21}} \left( \epsilon_{ij} + \nu_{12} \epsilon_{22} \right)$
+    where \(E_1\) is the modulus of elasticity in the warp direction, \(\nu_{12}\) and \(\nu_{21}\) are Poisson's ratios, and \(\epsilon_{ij}\) are the strain components.
+3. **Finite Element Models**: Numerical models using finite element analysis (FEA) to simulate fabric behavior under complex loading conditions.
 
 
 <h1 align="center">Part 5: Knitted Fabric Mechanics</h1>
 
+Knitted fabrics are constructed through interlooping of yarns, creating a fabric with inherent stretchability and flexibility. The mechanics of knitted fabrics involves understanding their unique structure, properties, and response to various mechanical forces.
 ## Fabric Structure and Geometry
-1. **Basic Knitting Patterns**
-    - **Single Jersey**:
-    - **Rib Knit**:
-    - **Interlock Knit**:
-2. **Gauge**:
+1. **Basic Knitting Patterns**: The primary knitting patterns include single jersey, rib, and interlock. Each pattern affects the fabric's mechanical properties differently.
+    - **Single Jersey**: Formed by a single set of yarns creating loops on one side of the fabric, resulting in a fabric with a smooth face and a slightly textured back. It is less durable but highly elastic and drapable.
+    - **Rib Knit**: Created by alternating knit and purl stitches in the same row, giving the fabric a stretchy, textured surface with good recovery. Commonly used for cuffs and bands.
+    - **Interlock Knit**: Made from two sets of yarns knitted together, creating a reversible fabric with a smooth surface on both sides. It is more stable and has less curl compared to single jersey.
+2. **Gauge**: Refers to the number of needles per unit length in the knitting machine. It affects the fabric density and thickness.
     - Gauge formula:
-3. **Loop Geometry**
-    - **Loop Lenght**:
+    $G = \frac{N}{L}$
+    where \(G\) is the gauge, \(N\) is the number of needles, and \(L\) is the length of the fabric.
+3. **Loop Geometry**: Knitted fabrics are characterized by their loop formation, which includes the loop length, width, and the angle of the loop.
+    - **Loop Lenght**: The distance between the loop's two end points, influencing the fabric's elasticity and stretchability.
         - Loop lenght formula:
-    - **Loop Width**:
-    - **Loop Angle**:
+        $L = \frac{P}{N}$
+        where \(L\) is the loop length, \(P\) is the fabric width, and \(N\) is the number of loops across the width.
+    - **Loop Width**: The width of the loop affects the fabric's drape and flexibility.
+    - **Loop Angle**: The angle between the loop and the fabric plane affects the overall stretch behavior of the fabric.
 
 ## Mechanical Properties of Knitted Fabrics
-1. **Tensile Properties**:
-    - **Tensile Strength**:
+1. **Tensile Properties**: The tensile strength and elongation of knitted fabrics are important for their performance in applications requiring flexibility and durability.
+    - **Tensile Strength**: The maximum stress a knitted fabric can withstand while being stretched.
         - Tensile strength formula:
-    - **Elongation at Break**:
+        $\sigma_{max} = \frac{F_{max}}{A}$
+        where \(\sigma_{max}\) is the tensile strength, \(F_{max}\) is the maximum force, \(A\) is the cross-sectional area.
+    - **Elongation at Break**: The amount of strain the fabric can endure before breaking.
         - Elongation at break formula:
-2. **Shear Properties**:
-    - **Shear Modulus**:
+        $\epsilon_{break} = \frac{\Delta L}{L_0}$
+    where \(\epsilon_{break}\) is the elongation break, \(\Delta L\) is the change in length at breaking point, and \(L_0\) is the original length.
+2. **Shear Properties**: The ability of the fabric to resist shearing forces, which is crucial for applications where fabrics are subjected to sliding or twisting.
+    - **Shear Modulus**: The ratio of shear stress to shear strain in the fabric.
         - Shear modulus formula:
-3. **Bending Properties**:
-    - **Bending Rigidity**:
+        $G = \frac{\tau}{\gamma}$
+        where \(G\) is the shear modulus, \(\tau\) is the shear stress, and \(\gamma\) is the shear strain.
+3. **Bending Properties**: The ability of the fabric to bend without breaking, which affects its drape and flexibility.
+    - **Bending Rigidity**: A measure of the fabric's resistance to bending, influenced by the yarn properties and weave pattern.
         - Bending rigidity formula:
+        $B = E \cdot I$
+        where \(B\) is the bending rigidity, \(E\) is the modulus of elasticity, and \(I\) is the second moment of area of the fabric.
 
 ## Fabric Behavior under Load
-1. **Stress-Strain Relationship**:
-    - **Non-linear Stress-Strain Behavior**:
+1. **Stress-Strain Relationship**: Knitted fabrics exhibit a unique stress-strain relationship due to their looped structure. The relationship is often non-linear and highly dependent on the knit pattern.
+    - **Non-linear Stress-Strain Behavior**: Knitted fabrics typically show non-linear behavior under large strains.
         - Non-linear stress-strain formula:
-2. **Anisotropy**:
+        $\sigma = E \cdot \epsilon + \alpha \epsilon^2$
+        where \(\alpha\) is a material constant.
+2. **Anisotropy**: Knitted fabrics are anisotropic, meaning their mechanical properties vary with direction due to the loop orientation and knit pattern.
 
 ## Mechanical Models for Knitted Fabric
-1. **Homogeneous Models**:
+1. **Homogeneous Models**: Simplified models treating knitted fabrics as homogeneous materials. Useful for preliminary design and analysis.
     - **Linear Elastic Model**:
+    $\sigma_{ij} = C_{ijkl} \epsilon_{kl}$
+    where \(C_{ijkl}\) is the elasticity tensor, and \(\epsilon_{kl}\) is the strain tensor.
 2. **Anisotropic Models**:
-    - **Orthotopic Elastic Model**:
-3. **Finite Element Models**:
+    - **Orthotopic Elastic Model**: More complex models accounting for the directional dependencies in the mechanical properties of knitted fabrics.
+    $\sigma_{ij} = \frac{E_1}{1 - \nu_{12} \nu_{21}} \left( \epsilon_{ij} + \nu_{12} \epsilon_{22} \right)$
+    where \(E_1\) is the modulus of elasticity in the warp direction, \(\nu_{12}\) and \(\nu_{21}\) are Poisson's ratios, and \(\epsilon_{ij}\) are the strain components.
+3. **Finite Element Models**: Numerical models using finite element analysis (FEA) to simulate the behavior of knitted fabrics under complex loading conditions.
+
