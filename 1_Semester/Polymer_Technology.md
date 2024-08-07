@@ -64,16 +64,13 @@ In the simplified case of an ideal solution, the thermodynamical properties are 
 
 - **Ideal Mixing**: In an ideal solution, the enthalpy of mixing (\(\Delta H_{\text{mix}}\)) is zero because the energy interactions between the solute and solvent molecules are identical to those among solute or solvent molecules themselves.
 - **Entropy of Mixing**: The entropy of mixing (\(\Delta S_{\text{mix}}\)) is positive and can be calculated using the expression:
-$
-\Delta S_{\text{mix}} = -k_B \sum_{i} n_i \ln x_i
-$
+
+  $\Delta S_{\text{mix}} = -k_B \sum_{i} n_i \ln x_i$
 where \(k_B\) is the Boltzmann constant, \(n_i\) is the number of moles of component \(i\) and \(x_i\) is the mole fraction of component \(i\).
 
 - **Gibbs Free Energy of Mixing**: The Gibbs free energy change for mixing (\(\Delta G_{\text{mix}}\)) is given by:
-$
-\Delta G_{\text{mix}} = \Delta H_{\text{mix}} - T \Delta S_{\text{mix}} = RT \sum_{i} n_i \ln x_i
-$
-where \(R\) is the universal gas constant and \(T\) is the temperature.
+  $\Delta G_{\text{mix}} = \Delta H_{\text{mix}} - T \Delta S_{\text{mix}} = RT \sum_{i} n_i \ln x_i$
+  where \(R\) is the universal gas constant and \(T\) is the temperature.
 
 ### Extention to Polymer Solutions: Flory-Huggins Theory
 
