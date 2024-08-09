@@ -5,11 +5,11 @@ Instrumental Analysis encompasses a broad range of analytical techniques used to
 ### Theoretical Knowledge
 
 1. **Range of Surface and Bulk Analytical Techniques** 
-- **Surface Analytical Techniques**: Methods used to analyze the outermost layers of materials, crucial for understanding surface chemistry, morphology, and composition.
-    - **X-ray Photoelectron Spectroscopy (XPS)**: Measures the elemental composition, empirical formula, chemical state, and electronic state of the elements within the material.
-    - **Scanning Electron Microscopy (SEM)**: Provides detailed images of the surface topography and composition by scanning the surface with a focused beam of electrons.
-    - **Atomic Force Microscopy (AFM)**: Measures the surface roughness and morphology at the nanometer scale by scanning the surface with a fine probe.
-    - **Contact Angle Measurement**: Determines the wettability of a surface by measuring the angle formed between a liquid droplet and the surface.
+    - **Surface Analytical Techniques**: Methods used to analyze the outermost layers of materials, crucial for understanding surface chemistry, morphology, and composition.
+        - **X-ray Photoelectron Spectroscopy (XPS)**: Measures the elemental composition, empirical formula, chemical state, and electronic state of the elements within the material.
+         - **Scanning Electron Microscopy (SEM)**: Provides detailed images of the surface topography and composition by scanning the surface with a focused beam of electrons.
+         - **Atomic Force Microscopy (AFM)**: Measures the surface roughness and morphology at the nanometer scale by scanning the surface with a fine probe.
+         - **Contact Angle Measurement**: Determines the wettability of a surface by measuring the angle formed between a liquid droplet and the surface.
 
 2. **Application of Analytical Techniques to Textiles and Fibrous Polymers**
 
